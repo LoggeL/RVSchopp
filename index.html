@@ -12,8 +12,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <nav>
@@ -27,7 +27,40 @@
       </div>
     </nav>
 
-    <div id="content" class="container"></div>
+    <div class="progress" id="progress" style="opacity: 0">
+      <div class="indeterminate"></div>
+    </div>
+
+    <!-- Main Content Populated from index.js -->
+    <main id="content" class="container"></main>
+
+    <!-- NoScript warning -->
+    <noscript>
+      <div class="container">
+        <h1>JavaScript ist deaktiviert!</h1>
+        <p>Um diese Seite nutzen zu können, muss JavaScript aktiviert sein.</p>
+      </div>
+    </noscript>
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer</h5>
+            <p class="grey-text text-lighten-4">Hallo ich bin ein Footer</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2014 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#">More Links</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Materialize -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <!-- Showdown.js -->
     <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
