@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Radfahrverein Schopp 1921 e.V. - Radrennbahn</title>
 
+    <!-- Material Icon Font -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
     <!-- Compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -19,6 +25,9 @@
     <nav>
       <div class="nav-wrapper container">
         <a href="#" class="brand-logo">RV Schopp</a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger left"
+          ><i class="material-icons">menu</i></a
+        >
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#brt2019">BRT 2019</a></li>
           <li><a href="#sportprg">Sportprg</a></li>
@@ -26,6 +35,12 @@
         </ul>
       </div>
     </nav>
+
+    <ul id="slide-out" class="sidenav">
+      <li><a href="#brt2019">BRT 2019</a></li>
+      <li><a href="#sportprg">Sportprg</a></li>
+      <li><a href="#termine">Termine</a></li>
+    </ul>
 
     <div class="progress" id="progress" style="opacity: 0">
       <div class="indeterminate"></div>

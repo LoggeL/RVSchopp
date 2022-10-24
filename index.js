@@ -13,9 +13,8 @@ document.querySelectorAll('a').forEach((a) => {
 
 function render() {
   progress.style.opacity = 1
+  if (!currentPage || currentPage == '#undefined') currentPage = 'index'
   currentPage = currentPage.replace('#', '')
-  if (!currentPage) currentPage = 'index'
-  console.log(currentPage)
   fetch(`pages/${currentPage}.md`)
     .then((response) => response.text())
     .then((text) => {
@@ -28,3 +27,10 @@ function render() {
 }
 
 render()
+
+let sideNavInstance
+// Materialize Init
+document.addEventListener('DOMContentLoaded', function () {
+  const SideNavElement = document.querySelector('.sidenav')
+  sideNavInstance = M.Sidenav.init(SideNavElement)
+})
