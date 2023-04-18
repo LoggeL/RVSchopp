@@ -1,18 +1,17 @@
 let currentPage = window.location.hash
 const content = document.getElementById('content')
-const progress = document.getElementById('progress')
 
 document.querySelectorAll('a').forEach((a) => {
   a.addEventListener('click', (e) => {
+    console.log(a)
     e.preventDefault()
-    currentPage = e.target.hash
+    currentPage = a.hash
     window.location.hash = currentPage
     render()
   })
 })
 
 function render() {
-  progress.style.opacity = 1
   if (!currentPage || currentPage == '#undefined') currentPage = 'index'
   currentPage = currentPage.replace('#', '')
   fetch(`pages/${currentPage}.md`)
@@ -22,15 +21,12 @@ function render() {
         tables: true,
       })
       content.innerHTML = converter.makeHtml(text)
-      progress.style.opacity = 0
+
+      // Add classes to tables
+      document.querySelectorAll('table').forEach((table) => {
+        table.classList.add('border')
+      })
     })
 }
 
 render()
-
-let sideNavInstance
-// Materialize Init
-document.addEventListener('DOMContentLoaded', function () {
-  const SideNavElement = document.querySelector('.sidenav')
-  sideNavInstance = M.Sidenav.init(SideNavElement)
-})

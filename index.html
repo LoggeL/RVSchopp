@@ -1,86 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Radfahrverein Schopp 1921 e.V. - Radrennbahn</title>
 
-    <!-- Material Icon Font -->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radfahrverein Schopp 1921 e.V. - Radrennbahn</title>
 
-    <!-- Compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
+  <link href="https://cdn.jsdelivr.net/npm/beercss@3.1.2/dist/cdn/beer.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <nav>
-      <div class="nav-wrapper container">
-        <a href="#" class="brand-logo">RV Schopp</a>
-        <a href="#" data-target="slide-out" class="sidenav-trigger left"
-          ><i class="material-icons">menu</i></a
-        >
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#brt2019">BRT 2019</a></li>
-          <li><a href="#sportprg">Sportprg</a></li>
-          <li><a href="#termine">Termine</a></li>
-        </ul>
-      </div>
-    </nav>
 
-    <ul id="slide-out" class="sidenav">
-      <li><a href="#brt2019">BRT 2019</a></li>
-      <li><a href="#sportprg">Sportprg</a></li>
-      <li><a href="#termine">Termine</a></li>
-    </ul>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="index.css" />
+</head>
 
-    <div class="progress" id="progress" style="opacity: 0">
-      <div class="indeterminate"></div>
+<body>
+  <nav class="left m l fill">
+    <a href="#index">
+      <img src="img/logo.png" class="circle margin">
+    </a>
+    <a href="#index">
+      <i>home</i>
+      <div>Home</div>
+    </a>
+    <a href="#brt2019">
+      <i>directions_bike</i>
+      <div>BRT 2019</div>
+    </a>
+    <a href="#sportprg">
+      <i>list</i>
+      <div>Sportprg</div>
+    </a>
+    <a href="#termine">
+      <i>event</i>
+      <div>Termine</div>
+    </a>
+    <a href="#test">
+      <i>settings</i>
+      <div>Test</div>
+    </a>
+  </nav>
+
+  <nav class="bottom s">
+    <a href="#index">
+      <i>home</i>
+      <div>Home</div>
+    </a>
+    <a href="#brt2019">
+      <i>directions_bike</i>
+      <div>BRT 2019</div>
+    </a>
+    <a href="#sportprg">
+      <i>list</i>
+      <div>Sportprg</div>
+    </a>
+    <a href="#termine">
+      <i>event</i>
+      <div>Termine</div>
+    </a>
+    <a href="#test">
+      <i>settings</i>
+      <div>Test</div>
+    </a>
+  </nav>
+
+  <!-- <ul id="slide-out" class="sidenav">
+    <li><a href="#brt2019">BRT 2019</a></li>
+    <li><a href="#sportprg">Sportprg</a></li>
+    <li><a href="#termine">Termine</a></li>
+  </ul> -->
+
+  <!-- Main Content Populated from index.js -->
+  <div class="space"></div>
+  <main id="content" class="responsive medium-line large"></main>
+
+  <!-- NoScript warning -->
+  <noscript>
+    <div class="container">
+      <h1>JavaScript ist deaktiviert!</h1>
+      <p>Um diese Seite nutzen zu können, muss JavaScript aktiviert sein.</p>
     </div>
+  </noscript>
 
-    <!-- Main Content Populated from index.js -->
-    <main id="content" class="container"></main>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.1.2/dist/cdn/beer.min.js"></script>
 
-    <!-- NoScript warning -->
-    <noscript>
-      <div class="container">
-        <h1>JavaScript ist deaktiviert!</h1>
-        <p>Um diese Seite nutzen zu können, muss JavaScript aktiviert sein.</p>
-      </div>
-    </noscript>
+  <!-- Showdown.js -->
+  <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
 
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Footer</h5>
-            <p class="grey-text text-lighten-4">Hallo ich bin ein Footer</p>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          © 2014 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#">More Links</a>
-        </div>
-      </div>
-    </footer>
+  <!-- Main Custom Script -->
+  <script src="index.js"></script>
+</body>
 
-    <!-- Materialize -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <!-- Showdown.js -->
-    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
-
-    <!-- Main Custom Script -->
-    <script src="index.js"></script>
-  </body>
 </html>
