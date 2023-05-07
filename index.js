@@ -61,6 +61,9 @@ function render() {
         })
 
         content.querySelectorAll('a').forEach((a) => {
+          // If the link is external, pass
+          if (!a.href.startsWith('#')) return
+
           a.addEventListener('click', (e) => {
             console.log(a)
             e.preventDefault()
