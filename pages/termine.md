@@ -1,5 +1,10 @@
 #### Termine
 
-Am Montag, dem 7. März 2022 startet wieder das
-Tischtennis-Training in der Turnhalle in Schopp.
-Bitte immer die aktuellen Coronoregeln beachten.
+Hier findet ihr eine Übersicht über alle Termine die zur Zeit festehen oder geplant sind.
+
+| Datum | Beschreibung |
+| ------------ | ----------- |
+| 15.04    |   Familien Sporttag RV Schopp    |
+| 10.06    |   [Kette-Links-Brevet](#marathon)   |
+| 15.07    |   Familien Sporttag RV Schopp    |
+
