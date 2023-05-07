@@ -43,6 +43,10 @@ _You **can** combine them_
 
 You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
 
+## Links to other pages
+
+[Termine](#termine)
+
 ## Tables
 
 | Left columns | Right columns |

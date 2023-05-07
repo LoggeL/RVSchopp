@@ -61,8 +61,8 @@ function render() {
         })
 
         content.querySelectorAll('a').forEach((a) => {
-          // If the link is external, pass
-          if (!a.href.startsWith('#')) return
+          // If the link is external, pass, compare the hostnames
+          if (a.hostname != window.location.hostname) return
 
           a.addEventListener('click', (e) => {
             console.log(a)
