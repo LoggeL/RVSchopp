@@ -60,6 +60,16 @@ function render() {
           table.classList.add('border')
         })
 
+        content.querySelectorAll('a').forEach((a) => {
+          a.addEventListener('click', (e) => {
+            console.log(a)
+            e.preventDefault()
+            currentPage = a.hash
+            window.location.hash = currentPage
+            render()
+          })
+        })
+
         // Scroll to top
         window.scrollTo(0, 0)
       })
