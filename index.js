@@ -20,7 +20,7 @@ function render() {
   fetch(`pages/${currentPage}.md`).then((response) => {
     // If the page doesn't exist, get the 404 page
     if (!response.ok) {
-      fetch(`pages/404.md`)
+      fetch(`pages/home.md`)
         // Get the text from the 404 page
         .then((response) => response.text())
         // Convert the text to HTML
