@@ -1,15 +1,22 @@
 let currentPage = window.location.hash
 const content = document.getElementById('content')
 
-document.querySelectorAll('a').forEach((a) => {
-  a.addEventListener('click', (e) => {
-    console.log(a)
-    e.preventDefault()
-    currentPage = a.hash
-    window.location.hash = currentPage
-    render()
+function setNavigation(element) {
+  element.querySelectorAll('a').forEach((a) => {
+    // Only set navigation for internal links with a hash
+    if (!a.hash || a.hash == '#') return
+
+    a.addEventListener('click', (e) => {
+      console.log(a)
+      e.preventDefault()
+      currentPage = a.hash
+      window.location.hash = currentPage
+      render()
+    })
   })
-})
+}
+
+setNavigation(document)
 
 function render() {
   // If the current page is not set, set it to index
@@ -59,27 +66,7 @@ function render() {
         document.querySelectorAll('table').forEach((table) => {
           table.classList.add('border')
         })
-      content.querySelectorAll('a').forEach((a) => {
-          a.addEventListener('click', (e) => {
-            console.log(a)
-            e.preventDefault()
-            currentPage = a.hash
-            window.location.hash = currentPage
-            render()
-          })
-        })
-        content.querySelectorAll('a').forEach((a) => {
-          // If the link is external, pass, compare the hostnames
-          if (a.hostname != window.location.hostname) return
-
-          a.addEventListener('click', (e) => {
-            console.log(a)
-            e.preventDefault()
-            currentPage = a.hash
-            window.location.hash = currentPage
-            render()
-          })
-        })
+        setNavigation(content)
 
         // Scroll to top
         window.scrollTo(0, 0)
