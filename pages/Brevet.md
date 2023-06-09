@@ -10,7 +10,7 @@ Am ersten Tag erwartet dich die verschlafe Schönheit des südlichen Pfälzerwal
 
 #### Infos
 
-<!-- |  | |
+|  | |
 | ------------ | ----------- |
 | Datum    |  08.06 |
 | Länge     |   208 km  |
@@ -19,50 +19,8 @@ Am ersten Tag erwartet dich die verschlafe Schönheit des südlichen Pfälzerwal
 | Ziel     |   17 Uhr   |
 | Kosten     |   20 € (Voranmeldung). 25 € (vor Ort)   |
 | Streck     |   Digital, Wegebeschreibung (analog), Schilder! |
-|Verpflegungsstationen| 6 Stk. (Kuchen, Nudelsalat, Belegte Brötchen …)| -->
+|Verpflegungsstationen| 6 Stk. (Kuchen, Nudelsalat, Belegte Brötchen …)|
 
-<table id="1">
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Datum</td>
-<td>08.06</td>
-</tr>
-<tr>
-<td>Länge</td>
-<td>208 km</td>
-</tr>
-<tr>
-<td>Höhenmeter</td>
-<td>2900 HM</td>
-</tr>
-<tr>
-<td>Start</td>
-<td>6 Uhr - 7 Uhr</td>
-</tr>
-<tr>
-<td>Ziel</td>
-<td>17 Uhr</td>
-</tr>
-<tr>
-<td>Kosten</td>
-<td>20 € (Voranmeldung). 25 € (vor Ort)</td>
-</tr>
-<tr>
-<td>Streck</td>
-<td>Digital, Wegebeschreibung (analog), Schilder!</td>
-</tr>
-<tr>
-<td>Verpflegungsstationen</td>
-<td>6 Stk. (Kuchen, Nudelsalat, Belegte Brötchen …)</td>
-</tr>
-</tbody>
-</table>
 
 #### Start & Ziel
 Stadion FKP Pirmasens  
@@ -134,13 +92,13 @@ Eichwaldstation
 
 
 #### Strecke
-Hier findest du die Strecken zum downloaden und hier den [Streckenplan](/file/Streckenplan_RV.pdf) zum Drucken. 
+Hier findest du die Strecken zum downloaden und hier den [Streckenplan](/files/Streckenplan_RV.pdf) zum Drucken. 
 
 **200 km** -->
 [GPX](/files/P3_Kette-Links-Brevet_RVSchopp.gpx)
 <iframe src="https://www.komoot.de/tour/1133186069/embed?profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
 **150 km** -->
-[GPX](/files/P3_Kette-Links-Brevet_RVSchopp-150km.gpx)
+[GPX](/files/P3_Kette-Links-Brevet_RVSchopp-150km.gpx) 
 <iframe src="https://www.komoot.de/tour/1155638112/embed?share_token=a2dHNBiW06OdaldYX6k8VjopozTINHGwc7vvRwBkME2TawGcCo&profile=1" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
 **100 km** -->
 [GPX](/files/P3_Kette-Links-Brevet_RVSchopp-114km.gpx)
